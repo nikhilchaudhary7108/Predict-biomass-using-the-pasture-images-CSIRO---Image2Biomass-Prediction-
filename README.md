@@ -63,6 +63,12 @@ Multiple records may correspond to the same image, each representing a different
 
 ---
 
+# Data Quality Report 
+
+- A folder named Data Quality Report is made for DATA EXPLORATION.
+- It has been categorized into two parts 1. Continuous Features 2. Categorical Features.
+- Diagrams and graphs are included in each .
+
 ## Data Characteristics
 
 Exploration of the dataset reveals several important properties:
