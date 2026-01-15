@@ -70,7 +70,7 @@ Multiple records may correspond to the same image, each representing a different
 - Diagrams and graphs are included in each .
 
 - Continuous Features
-  | Feature       |   Count |   % Miss. |   Card. |   Min |   1st Qrt. |    Mean |   Median |   3rd Qrt. |    Max |   Std. Dev. |
+| Feature       |   Count |   % Miss. |   Card. |   Min |   1st Qrt. |    Mean |   Median |   3rd Qrt. |    Max |   Std. Dev. |
 |:--------------|--------:|----------:|--------:|------:|-----------:|--------:|---------:|-----------:|-------:|------------:|
 | Pre_GSHH_NDVI |    1785 |         0 |      65 |  0.16 |     0.56   |  0.6574 |     0.69 |     0.77   |   0.91 |      0.152  |
 | Height_Ave_cm |    1785 |         0 |      81 |  1    |     3      |  7.596  |     4    |     7      |  70    |     10.2737 |
