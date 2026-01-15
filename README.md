@@ -68,6 +68,42 @@ Multiple records may correspond to the same image, each representing a different
 - A folder named Data Quality Report is made for DATA EXPLORATION.
 - It has been categorized into two parts 1. Continuous Features 2. Categorical Features.
 - Diagrams and graphs are included in each .
+---
+### Interpreting the Data Quality Tables
+
+The data quality tables summarize key statistical and structural properties of each feature.  
+The columns are defined as follows:
+
+- **Count**  
+  Number of non-missing observations for the feature.
+
+- **% Miss.**  
+  Percentage of missing values relative to the total number of samples.
+
+- **Card. (Cardinality)**  
+  Number of distinct values a feature can take.  
+  For categorical features, high cardinality may require special encoding strategies.
+
+- **Min / Max**  
+  Smallest and largest observed values (continuous features).
+
+- **1st Qrt., Median, 3rd Qrt.**  
+  First quartile (25%), median (50%), and third quartile (75%), describing the spread and skewness of continuous features.
+
+- **Mean / Std. Dev.**  
+  Average value and standard deviation, indicating central tendency and variability.
+
+- **Mode**  
+  Most frequently occurring category for a categorical feature.
+
+- **Mode Freq. / Mode %**  
+  Absolute count and percentage of the most frequent category.
+
+- **2nd Mode / 2nd Freq. / 2nd %**  
+  The second most frequent category and its corresponding count and percentage.  
+  This helps assess dominance and class imbalance.
+
+These statistics help identify skewed distributions, dominant categories, rare classes, missing values, and potential data quality issues that influence feature encoding and model design.
 
 ---
 ## Continuous Features
