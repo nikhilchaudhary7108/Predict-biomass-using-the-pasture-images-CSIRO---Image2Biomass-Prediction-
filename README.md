@@ -69,13 +69,14 @@ Multiple records may correspond to the same image, each representing a different
 - It has been categorized into two parts 1. Continuous Features 2. Categorical Features.
 - Diagrams and graphs are included in each .
 
-- Continuous Features
+---
+## Continuous Features
 | Feature       |   Count |   % Miss. |   Card. |   Min |   1st Qrt. |    Mean |   Median |   3rd Qrt. |    Max |   Std. Dev. |
 |:--------------|--------:|----------:|--------:|------:|-----------:|--------:|---------:|-----------:|-------:|------------:|
 | Pre_GSHH_NDVI |    1785 |         0 |      65 |  0.16 |     0.56   |  0.6574 |     0.69 |     0.77   |   0.91 |      0.152  |
 | Height_Ave_cm |    1785 |         0 |      81 |  1    |     3      |  7.596  |     4    |     7      |  70    |     10.2737 |
 | target        |    1785 |         0 |    1328 |  0    |     4.8182 | 24.7823 |    18.2  |    35.9406 | 185.7  |     25.8237 |
-
+---
 ## Data Characteristics
 
 Exploration of the dataset reveals several important properties:
