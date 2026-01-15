@@ -77,6 +77,14 @@ Multiple records may correspond to the same image, each representing a different
 | Height_Ave_cm |    1785 |         0 |      81 |  1    |     3      |  7.596  |     4    |     7      |  70    |     10.2737 |
 | target        |    1785 |         0 |    1328 |  0    |     4.8182 | 24.7823 |    18.2  |    35.9406 | 185.7  |     25.8237 |
 ---
+---
+## Categorical Features
+| Feature     |   Count |   % Miss. |   Card. | Mode            |   Mode Freq. |   Mode % | 2nd Mode   |   2nd Freq. |   2nd % |
+|:------------|--------:|----------:|--------:|:----------------|-------------:|---------:|:-----------|------------:|--------:|
+| State       |    1785 |         0 |       4 | Tas             |          690 |    38.66 | Vic        |         560 |   31.37 |
+| Species     |    1785 |         0 |      15 | Ryegrass_Clover |          490 |    27.45 | Ryegrass   |         310 |   17.37 |
+| target_name |    1785 |         0 |       5 | Dry_Clover_g    |          357 |    20    | Dry_Dead_g |         357 |   20    |
+---
 ## Data Characteristics
 
 Exploration of the dataset reveals several important properties:
